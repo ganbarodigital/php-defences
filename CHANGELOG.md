@@ -6,6 +6,7 @@
 
 * Contracts\AssertValue - checks that a value meets a given expression
 * Contracts\EnsureValue - alias for AssertValue for readability
+* Contracts\ForAll - apply a check to every value in an array
 * Contracts\RequireValue - alias for AssertValue for readability
 * Contracts\RunPreconditions - run contract checks if wrapped contracts are enabled
 * Contracts\UnreachableCode - return exception when executed
