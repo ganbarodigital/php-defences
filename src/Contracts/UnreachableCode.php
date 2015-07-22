@@ -49,11 +49,11 @@ use GanbaroDigital\Exceptions\ValueBuilders\CodeCaller;
 class UnreachableCode
 {
     /**
-     * throws an exception when called
+     * builds an exception when called, but you need to throw it
      *
      * use this to trap errors where unreachable code ends up being executed
      *
-     * @return void
+     * @return E5xx_UnreachableCodeReached
      */
     public static function alert()
     {

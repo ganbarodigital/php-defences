@@ -71,6 +71,23 @@ class RequireAllOf
             throw new E4xx_BadRequirementData(__METHOD__);
         }
 
+        // now that we know our inputs are safe ...
+        self::checkRequirements($requirements, $data, $exception);
+    }
+
+    /**
+     * throws exceptions if any of our requirements are not met
+     *
+     * @param  array $requirements
+     *         the list of requirements to call
+     * @param  array $data
+     *         the parameters to pass to each requirement in turn
+     * @param  string $exception
+     *         the class to use when throwing an exception
+     * @return void
+     */
+    private static function checkRequirements($requirements, $data, $exception)
+    {
         // are any of our requirements met?
         foreach ($requirements as $requirement) {
             // make sure it is an object first

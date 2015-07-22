@@ -65,5 +65,7 @@ class AssertValue
         if ($expr !== true) {
             throw new E5xx_ContractFailed($value, $reason);
         }
+
+        return true;
     }
 }

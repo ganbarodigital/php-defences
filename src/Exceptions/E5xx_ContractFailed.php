@@ -49,6 +49,7 @@ class E5xx_ContractFailed extends E5xx_DefensiveException
 {
     public function __construct($value, $reason = null)
     {
+        $data = [];
         $data['value'] = $value;
         $data['reason'] = $reason;
         $data['caller'] = CodeCaller::fromBacktrace(debug_backtrace(), 2);

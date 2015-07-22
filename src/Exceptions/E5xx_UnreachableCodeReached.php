@@ -49,6 +49,7 @@ class E5xx_UnreachableCodeReached extends E5xx_DefensiveException
 {
     public function __construct($level = 1)
     {
+        $data = [];
         $data['caller'] = CodeCaller::fromBacktrace(debug_backtrace(), $level);
 
         $msg = "unreachable code executed at " . $data['caller']['file'] . ':' . $data['caller']['line'];
