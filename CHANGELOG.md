@@ -4,6 +4,7 @@
 
 ### New
 
+* Contracts\WrappedContracts - manages whether wrapped contracts are to be checked or not
 * Exceptions\E4xx_BadRequirementData - a requirements container has been given data it cannot use
 * Exceptions\E4xx_BadRequirements - a requirements contianer has been given requirements it cannot use
 * Exceptions\Exxx_DefensiveException - base catchable for all exceptions thrown by this library
