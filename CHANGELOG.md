@@ -8,6 +8,7 @@
 * Contracts\EnsureValue - alias for AssertValue for readability
 * Contracts\RequireValue - alias for AssertValue for readability
 * Contracts\RunPreconditions - run contract checks if wrapped contracts are enabled
+* Contracts\UnreachableCode - return exception when executed
 * Contracts\WrappedContracts - manages whether wrapped contracts are to be checked or not
 * Exceptions\E4xx_BadRequirementData - a requirements container has been given data it cannot use
 * Exceptions\E4xx_BadRequirements - a requirements contianer has been given requirements it cannot use
