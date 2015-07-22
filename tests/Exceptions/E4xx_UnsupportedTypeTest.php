@@ -34,21 +34,21 @@
  * POSSIBILITY OF SUCH DAMAGE.
  *
  * @category  Libraries
- * @package   Defences/Exceptions
+ * @package   Defensive/Exceptions
  * @author    Stuart Herbert <stuherbert@ganbarodigital.com>
  * @copyright 2015-present Ganbaro Digital Ltd www.ganbarodigital.com
  * @license   http://www.opensource.org/licenses/bsd-license.php  BSD License
- * @link      http://code.ganbarodigital.com/php-defences
+ * @link      http://code.ganbarodigital.com/php-defensive
  */
 
-namespace GanbaroDigital\Defences\Exceptions;
+namespace GanbaroDigital\Defensive\Exceptions;
 
 use PHPUnit_Framework_TestCase;
 use RuntimeException;
 use stdClass;
 
 /**
- * @coversDefaultClass GanbaroDigital\Defences\Exceptions\E4xx_UnsupportedType
+ * @coversDefaultClass GanbaroDigital\Defensive\Exceptions\E4xx_UnsupportedType
  */
 class E4xx_UnsupportedTypeTest extends PHPUnit_Framework_TestCase
 {

@@ -1,5 +1,5 @@
 {
-    "name": "ganbarodigital/php-defences",
+    "name": "ganbarodigital/php-defensive",
     "type": "library",
     "license": "BSD-3-Clause",
     "authors": [
@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "GanbaroDigital\\Defences\\": "src"
+            "GanbaroDigital\\Defensive\\": "src"
         }
     }
 }

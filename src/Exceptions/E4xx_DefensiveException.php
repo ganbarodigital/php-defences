@@ -34,14 +34,14 @@
  * POSSIBILITY OF SUCH DAMAGE.
  *
  * @category  Libraries
- * @package   Defences/Exceptions
+ * @package   Defensive/Exceptions
  * @author    Stuart Herbert <stuherbert@ganbarodigital.com>
  * @copyright 2015-present Ganbaro Digital Ltd www.ganbarodigital.com
  * @license   http://www.opensource.org/licenses/bsd-license.php  BSD License
- * @link      http://code.ganbarodigital.com/php-defences
+ * @link      http://code.ganbarodigital.com/php-defensive
  */
 
-namespace GanbaroDigital\Defences\Exceptions;
+namespace GanbaroDigital\Defensive\Exceptions;
 
 class E4xx_DefensiveException extends Exxx_DefensiveException
 {
