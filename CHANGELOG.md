@@ -2,6 +2,12 @@
 
 ## develop branch
 
+Nothing yet.
+
+## 1.0.0 - Wed Jul 22 2015
+
+Initial release. Largely based on Stuart's old ContractLib2.
+
 ### New
 
 * Contracts\AssertValue - checks that a value meets a given expression
