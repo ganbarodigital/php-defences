@@ -4,6 +4,13 @@
 
 Nothing yet.
 
+## 1.0.1 - Thu Jul 23 2015
+
+### Fixes
+
+* RequireAllOf - now accepts callables for requirements (instead of requiring only callable objects)
+* RequireAnyOneOf - now accepts callables for requirements (instead of requiring only callable objects)
+
 ## 1.0.0 - Wed Jul 22 2015
 
 Initial release. Largely based on Stuart's old ContractLib2.
