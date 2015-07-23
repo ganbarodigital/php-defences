@@ -43,6 +43,7 @@
 
 namespace GanbaroDigital\Defensive\Requirements;
 
+use GanbaroDigital\Defensive\Contracts;
 use GanbaroDigital\Defensive\Exceptions\E4xx_UnsupportedType;
 use PHPUnit_Framework_TestCase;
 use stdClass;
@@ -112,6 +113,11 @@ class RequireAnyOneOfTest_Group2
  */
 class RequireAnyOneOfTest extends PHPUnit_Framework_TestCase
 {
+    public function setup()
+    {
+        Contracts\WrappedContracts::enable();
+    }
+
     /**
      * @coversNothing
      */

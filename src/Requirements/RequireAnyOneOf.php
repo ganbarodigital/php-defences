@@ -91,12 +91,12 @@ class RequireAnyOneOf
         // are any of our requirements met?
         foreach ($requirements as $requirement) {
             // make sure it is an object first
-            if (!is_object($requirement)) {
+            if (!is_callable($requirement)) {
                 throw new E4xx_BadRequirements(__METHOD__);
             }
 
             // ask the requirement if it has been met
-            if (call_user_func_array([$requirement, '__invoke'], $data)) {
+            if (call_user_func_array($requirement, $data)) {
                 return;
             }
         }

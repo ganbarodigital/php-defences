@@ -47,7 +47,7 @@ class E4xx_BadRequirements extends E4xx_DefensiveException
 {
     public function __construct($method)
     {
-        $msg = "Bad requirements passed into {$method}; must be an array of objects";
+        $msg = "Bad requirements passed into {$method}; must be an array of callables";
         parent::__construct(400, $msg);
     }
 }
