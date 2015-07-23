@@ -2,10 +2,9 @@
 
 ## develop branch
 
-Nothing yet.
-
 ### Fixes
 
+* RequireAllOf - now accepts callables for requirements (instead of requiring only callable objects)
 * RequireAnyOneOf - now accepts callables for requirements (instead of requiring only callable objects)
 
 ## 1.0.0 - Wed Jul 22 2015
